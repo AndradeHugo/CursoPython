@@ -9,5 +9,5 @@ else:
     situacao = 'Recuperação'
 
 ficha = {'nome': nome, 'média': media, 'situação': situacao}
-for k,v in ficha.items():
+for k, v in ficha.items():
     print(f'- {k} é igual a {v}')
